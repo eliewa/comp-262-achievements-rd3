@@ -1,9 +1,9 @@
 <template>
   <div class="mt-auto h-auto relative overflow-hidden" :class="font">
     <footer class="font-heading" :class="bgColor">
-      <div class="p-4 text-center border-b border-gray-200" :class="textColor">
+      <div class="p-4 text-center border-b border-black" :class="textColor">
         <div class="nav-links">
-          <ul class="text-center flex md:flex-row md:gap-10 flex-col gap-4 justify-center mx-auto">
+          <ul class="text-center flex md:flex-row md:gap-10 flex-col gap-4 justify-center mx-auto font-semibold">
           <li>
             Home
           </li>
@@ -21,7 +21,7 @@
         
       </div>
 
-      <p class="text-center p-5 text text-white">&copy; ARC Industries</p>
+      <p class="text-center p-5 text-yellow-400">&copy; ARC Industries</p>
     </footer>
   </div>
 </template>

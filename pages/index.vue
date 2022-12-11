@@ -1,8 +1,14 @@
 <template>
   <div>
-    <TheNav />
+    <TheNav 
+    bg-color="bg-cyan-700"
+    text-color="text-black"
+    />
     <TheHero />
-    <TheFooter />
+    <TheFooter 
+      bg-color="bg-cyan-700"
+      text-color="text-black"
+    />
   </div>
 </template>
 

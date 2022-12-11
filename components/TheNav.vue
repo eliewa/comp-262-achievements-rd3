@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4" :class="bgColor" >
+  <div class="p-3" :class="bgColor" >
     <nav class="container flex justify-between mx-auto" :class="textColor">
       <div class="flex">
         <Icon name="gg:bolt" class="text-5xl text-yellow-400"/>
